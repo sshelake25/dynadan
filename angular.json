@@ -15,7 +15,7 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "cx",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -110,7 +110,7 @@
       "projectType": "library",
       "root": "projects/core-editor",
       "sourceRoot": "projects/core-editor/src",
-      "prefix": "lib",
+      "prefix": "cxlib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
