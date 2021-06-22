@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CoreEditorComponent } from 'projects/core-editor/src/public-api';
 
 @Component({
   selector: 'app-root',
