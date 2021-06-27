@@ -6,6 +6,8 @@
       <div class="col-xl-12">
           <div class="row">
               <div class="col-xl-12 text-right">
+                <button data-toggle="tooltip" data-placement="bottom" title="Export to image" type="button" class="btn btn-primary" (click)="rasterize();">
+                    <i class="fa fa-download" aria-hidden="true"></i> Add Page</button>
                   <button data-toggle="tooltip" data-placement="bottom" title="Export to image" type="button" class="btn btn-primary" (click)="rasterize();">
                       <i class="fa fa-download" aria-hidden="true"></i> Export to image</button>
                   <button data-toggle="tooltip" data-placement="bottom" title="Export to SVG" type="button" class="btn btn-primary" (click)="rasterizeSVG();">
@@ -119,6 +121,7 @@
           </div>
       </div>
       <div class="col-xl-6">
+          <angular-editor-fabric-js #canvas></angular-editor-fabric-js>
           <angular-editor-fabric-js #canvas></angular-editor-fabric-js>
       </div>
       <div class="col-xl-3">
