@@ -7,6 +7,10 @@
 ### Output
 ![Imgur](https://i.imgur.com/hgTEb20.png)
 
+
+=============
+https://stackblitz.com/edit/add-multiple-canvas-fabricjs-phmd6b?file=src%2Fapp%2Fapp.component.ts
+
 ### Features
 * Export to image
 * Export to SVG
