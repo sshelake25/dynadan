@@ -5,12 +5,12 @@
   "dependencies": {
     "fabric": "^3.6.3",
     "@types/fabric": "^3.6.2",
-    "ngx-color-picker": "^9.1.0",
-    "tslib": "^2.0.0"
+    "ngx-color-picker": "^11.0.0",
+    "tslib": "^2.3.0"
   },
   "peerDependencies": {
-    "@angular/common": "^12.1.0",
-    "@angular/core": "^12.1.0"
+    "@angular/common": "~12.1.0",
+    "@angular/core": "~12.1.0"
   },
   "keywords": [
     "kitchensink",
